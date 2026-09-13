@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Moon Call Privacy Policy</title><style>
+:root{color-scheme:light dark;--fg:#1c1c1e;--bg:#fff;--muted:#6e6e73;--rule:#e5e5ea;--warn:#8a5a00;--warnbg:#fff4d6}
+@media(prefers-color-scheme:dark){:root{--fg:#f2f2f7;--bg:#111;--muted:#98989d;--rule:#2c2c2e;--warn:#ffd479;--warnbg:#332a12}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Apple SD Gothic Neo","Hiragino Sans","Noto Sans KR","Noto Sans JP",sans-serif}
+main{max-width:42rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+h1{font-size:1.6rem;margin:0 0 .25rem}h2{font-size:1.1rem;margin:2rem 0 .5rem}
+p,li{margin:.4rem 0}ul{padding-left:1.25rem}
+.meta{color:var(--muted);font-size:.9rem}
+.draft{background:var(--warnbg);color:var(--warn);border-radius:8px;padding:.6rem .9rem;font-size:.9rem;margin:1rem 0 1.5rem}
+.todo{background:var(--warnbg);color:var(--warn);border-radius:4px;padding:0 .3rem}
+nav{font-size:.9rem;color:var(--muted);margin-bottom:1.5rem}nav a{color:inherit}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+</style></head><body><main>
+<nav><a href="../">Moon Call</a> · <a href="../ko/">한국어</a> · <a href="../ja/">日本語</a> · English</nav>
+<h1>Moon Call Privacy Policy</h1>
+<p class="meta">Effective date: <span class="todo">[TBD: effective date]</span> · Operator: <span class="todo">[TBD: operator name]</span></p>
+<p class="draft">This is a draft. The content may change until it is finalized.</p>
+
+<p>Moon Call (the "app") is an iOS app that stages a call you can place while the moon is up, and keeps the recording on your device. This document explains what information the app keeps and where.</p>
+
+<h2>1. Information stored on the server</h2>
+<ul>
+<li><strong>Account</strong>: the user identifier and email address that Apple provides when you sign in with Apple. The email may be Apple's private relay address. It is stored only to identify your account, and we do not send email to it. Your name is not stored.</li>
+<li><strong>Home location</strong>: latitude and longitude rounded to one decimal place (a grid of roughly 11 km) and your time zone. Saved once during setup, and updated only when you change it in Settings.</li>
+<li><strong>Language and notification settings</strong>: your chosen language and whether notifications are on. If you allow notifications, your device's push token.</li>
+<li><strong>Call records</strong>: the time of each call, the time zone at that moment, its length, the moon phase at that time, and the name of the recording file on your device. The recording itself is not included.</li>
+</ul>
+
+<h2>2. Information not stored on the server</h2>
+<ul>
+<li><strong>Recording audio</strong>: call recordings are stored only on your device and are never uploaded. They are excluded from iCloud backup. If you switch devices, your call records remain but the recordings do not move with them.</li>
+<li><strong>Precise location</strong>: your current location is used only on the device to draw the moon and decide whether a call can be placed. It is not sent to the server.</li>
+<li>The app does not use contacts, photos, advertising identifiers, analytics tools, or advertising SDKs.</li>
+</ul>
+
+<h2>3. How the information is used</h2>
+<ul>
+<li>Signing in and identifying your account</li>
+<li>Computing moonrise times and full moons from your home location and time zone, and sending push notifications</li>
+<li>Anniversary notifications for past calls</li>
+<li>Showing your call list in the app</li>
+</ul>
+
+<h2>4. Retention and deletion</h2>
+<ul>
+<li>You can delete individual call records from the call list. The server record and the recording on your device are deleted together.</li>
+<li>Deleting your account removes all of your information from the server and disconnects Sign in with Apple. The app also deletes any recordings left on the device.</li>
+<li>Notification delivery logs are deleted automatically after 30 days.</li>
+</ul>
+
+<h2>5. Service providers and third parties</h2>
+<ul>
+<li><strong>Supabase</strong>: database and sign-in hosting. The server is located in the Seoul, South Korea region.</li>
+<li><strong>Apple</strong>: Sign in with Apple and push notification delivery.</li>
+<li>We do not sell your information or share it for advertising.</li>
+</ul>
+
+<h2>6. Your choices</h2>
+<p>In the app's Settings you can change your language, home location, and notifications, sign out, or delete your account. For anything else, contact <span class="todo">[TBD: contact email]</span>.</p>
+
+<h2>7. Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+</main></body></html>
